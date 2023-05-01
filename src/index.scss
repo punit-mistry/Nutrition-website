@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Navbar{
+  max-width: 100%;
+  background-color: transparent; // this should be transparent
+  height: 65px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+
+  .Logo{
+    img{
+      width: 150px;
+      height: 30px;
+    }
+  }
+
+  .Content{
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    li{
+      list-style: none;
+      padding: 10px;
+      
+    }
+  }
+
+  .Button{
+    button{
+      background-color: rgb(34, 117, 34);
+      width: 150px;
+      height: 50px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px
+    }
+  }
+
+}
