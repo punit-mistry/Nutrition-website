@@ -80,17 +80,20 @@ let respone=[];
 
 
      
-      <p>you have searach {searchFood[0]?.strMeal || null}</p>
-    {
+      <p>you have Search {searchFood[0]?.strMeal || null}</p>
+      <div className='Search_First'>{
       searchFood.map((res)=>{
         return(
-          <div className='First' style={{margin:20,}}>
+
+          <div style={{margin:20,}}>
         <div ><img src={res?.strMealThumb || null} width={350}/></div>
         <div className='text'>{res?.strMeal || null}</div>
           </div>
+         
         )
       })
     }
+     </div>
      
     </div>
 
