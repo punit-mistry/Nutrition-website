@@ -12,6 +12,35 @@ code {
     monospace;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #504d51 ;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #504d51;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+
 .Navbar{
   max-width: 100%;
   background-color: transparent; // this should be transparent
@@ -104,6 +133,9 @@ code {
     .FirstSectio-1_logos{
       display: flex;
       flex-direction: column;
+      label{
+        font-size: 20px;
+      }
       img{
         margin: 10px;
         max-width: 250px;
@@ -171,4 +203,132 @@ padding: 110px;
 }
 
   }
+}
+
+.SecondSection{
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+.SecondSection_1{
+  font-size: 50px;
+}
+.SecondSection_2{
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  max-width: 50%;
+}
+.SecondSection_3{
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  img{
+    width: 30%;
+    margin: 20px;
+  }
+  .img1{
+    border-top-right-radius:150px ;
+    border-top-left-radius: 150px;
+  }
+  .img2{
+    border-top-right-radius:150px ;
+    border-Bottom-right-radius:150px ;
+    border-top-left-radius: 150px;
+  }
+  .Heading1{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .Heading2{
+    font-size: 20px;
+  }
+  .SecondSection_Button{
+    width: 250px;
+    height: 50px;
+    color: #ffffff;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+  }
+}
+}
+
+.ThirdSection{
+  display: flex;
+  flex-direction: column;
+margin: 10px;
+ justify-content: center;
+  align-items: center;
+
+  img:hover{
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(.89);
+  }
+
+  .foodlist{
+   
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    .text{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    img{
+      border-radius: 50px;
+    }
+  }
+
+  .searchbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    input{
+      height: 30px;
+      width: 250px;
+    }
+  }
+.Search_First{
+ background-color: #FFC107;
+ max-width: 90vw;
+ display: flex;
+ overflow: scroll;
+ padding:20px;
+}
+
+.text{
+  font-weight: bold;
+  font-size: 20px;
+}
+img{
+  border-radius: 25px;
+ }
+
+ button{
+  width: 250px;
+  height: 30px;
+  background-color: darkgoldenrod;
+  color: #ffffff;
+  border-radius: 25px;
+  border: none;
+
+ }
+ button:hover{
+  cursor: pointer;
+  font-weight: bold;
+  transition: 1s;
+  background-color: #FFC107;
+  color: red;
+ }
 }

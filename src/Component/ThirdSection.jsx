@@ -85,9 +85,11 @@ let respone=[];
       searchFood.map((res)=>{
         return(
 
-          <div style={{margin:20,}}>
+          <div style={{padding:20,textAlign:"center"}}>
         <div ><img src={res?.strMealThumb || null} width={350}/></div>
         <div className='text'>{res?.strMeal || null}</div>
+        <br/>
+        <div><button onClick={()=>{console.log(res.idMeal)}}>Click Here To Know More</button></div>
           </div>
          
         )
