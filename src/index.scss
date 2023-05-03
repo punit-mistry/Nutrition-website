@@ -331,4 +331,47 @@ img{
   background-color: #FFC107;
   color: red;
  }
+
+
+ table{
+  margin: 20px;
+  border: 1px solid;
+  max-width: 80vw;
+  td,th{
+    border-bottom: 1px solid ;
+  }
+ }
+
+ .List{
+  border-radius: 50px;
+  margin: 10px;
+  background-image: url("https://www.verywellfit.com/thmb/zkU5Eji9ciXJUtKIdkTyqsyLOKw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Plant-baseddietjenifoto-73193eabbdc9402ab3bc535562e2ed7e.jpg");
+  background-attachment: fixed;
+
+  min-width: 8vw;
+  max-width:90vw ;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+ }
+
+ .List:hover{
+  opacity: .8;
+  background-image: url("https://w0.peakpx.com/wallpaper/410/412/HD-wallpaper-plain-black-black-thumbnail.jpg");
+  background-attachment: fixed;
+  .List_div{
+    color: red;
+  }
+ }
+
+ .List_div{
+font-size: 29px;  
+ }
+
+
+ 
+
+
 }
