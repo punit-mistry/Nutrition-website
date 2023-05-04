@@ -1,6 +1,7 @@
 import React from 'react'
 import { Router ,Routes,Route, Link} from 'react-router-dom'
 import Nutrition from './Nutrition'
+import Information from './Component/information'
 const App = () => {
   return (
 <>
@@ -15,6 +16,7 @@ const App = () => {
               <li><Link to='/'>About</Link></li>
               <li><Link to='/'>Page</Link></li>
               <li><Link to='/'>Blog</Link></li>
+              <li><Link to='/search'>Blog</Link></li>
             </ul>
             </div></div>
           <div className='Button'>
@@ -26,6 +28,7 @@ const App = () => {
           </div>  
           <Routes>
             <Route path='/' element={<Nutrition />}></Route>
+            <Route path='/search/:id' element={<Information />}></Route>
           </Routes>
    
     </>
