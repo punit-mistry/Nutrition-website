@@ -37,6 +37,12 @@ const [userdata,setUsetData]   =useState({
           .then((response) => {
             console.log(response.data)
             alert("Thank you !!")
+            setUsetData({
+                name:"",
+    number:"",
+    email:"",
+    message:"",
+            })
           })
           .catch((error) => {
             alert("Oops Something went wrong!!")
@@ -74,14 +80,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
 <div className='form'>
 <form>
                 
-                <input placeholder='Name' value={userdata.name}onChange={postuserdata} name="name" type='text' className='contact'/>
+                <input placeholder='Name' required value={userdata.name}onChange={postuserdata} name="name" type='text' className='contact'/>
                
                 <br/>
-                <input placeholder='Number'value={userdata.number}onChange={postuserdata}name='number' type='number' className='contact'/>
+                <input placeholder='Number' required value={userdata.number}onChange={postuserdata}name='number' type='number' className='contact'/>
                 <br/>
-                <input placeholder='Email'value={userdata.email}onChange={postuserdata} name='email'type='text' className='contact'/>
+                <input placeholder='Email' required value={userdata.email}onChange={postuserdata} name='email'type='text' className='contact'/>
                 <br/>
-                <textarea placeholder='Message'value={userdata.message}onChange={postuserdata}name='message' cols={57} rows={5}></textarea>
+                <textarea placeholder='Message' required value={userdata.message}onChange={postuserdata}name='message' cols={57} rows={5}></textarea>
               
                 <br/>      <br/>
                 <button onClick={submitData}>Send !!</button>
