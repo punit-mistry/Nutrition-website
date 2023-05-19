@@ -5,6 +5,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: bisque;
+  margin: 0;
+  padding: 0;
 }
 
 code {
@@ -370,9 +372,115 @@ img{
  .List_div{
 font-size: 29px;  
  }
+}
+
+.about{
+  width: 100vw;
+  height: 2000px;
+}
+
+.Page{
+  height: 92.8vh;
+  display: flex;
+  .Page-img{
+    width: 60%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .Page-context{
+    width: 50%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10px;
+    h2{
+      text-align: center;
+    }
+  }
+}
 
 
- 
+.contact{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  .contact-image{
+    width: 100%;
+    height: 350px;
+    background-image: url('https://www.who.int/images/default-source/departments/colorful-vegetables4d565944426546b7a5ca82d24dca5c81.tmb-1920v.jpg?Culture=en&sfvrsn=330f13a6_15');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  .contact-image-text{
+    width: 700px;
+    height: 60px;
+    margin-top:15.5%;
+    margin-left: 5.8%;
+    color: black;
+    background-color: bisque;
+  }
+  .spline {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    margin-top: 20%;
+    z-index: 1;
+    width: 100%;
+    height: 800px;
+    h2{
+      font-size: 72px;
+      background: -webkit-linear-gradient(#ffffff, #f50606,#065af5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+.contact-form{
+  position: relative;
+  z-index: 2;
+  margin: 50px;
+  height: 50vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  // justify-content: center;
+  align-items: center;
+  form{
+    width: 31%;
+    font-size: 20px;
+    height: 120%;
+    label{
+    font-weight: bold;
+    }
+    input{
+      width: 97%;
+      height: 30px;
+    }
+    input:focus {
+      border: 5px solid red;
+    }
+    button{
+      background-color: green;
+      border: none;
+      width: 300px;
+      height: 30px;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      transition: 1.2s;
+    }
+    button:hover{
+      background-color: #504d51;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
 
 
 }
