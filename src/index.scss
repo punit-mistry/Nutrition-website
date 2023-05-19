@@ -446,12 +446,20 @@ font-size: 29px;
   height: 50vh;
   background-color: transparent;
   display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  // justify-content: center;
+
   align-items: center;
+  .form-context{
+    width: 50%;
+margin-left: 50px;
+img{
+  width: 50%;
+}
+  }
+  .form{
+    width: 50%;
+  }
   form{
-    width: 31%;
+    width: 51%;
     font-size: 20px;
     height: 120%;
     label{
@@ -465,9 +473,9 @@ font-size: 29px;
       border: 5px solid red;
     }
     button{
-      background-color: green;
+      background-color: rgb(85, 226, 85);
       border: none;
-      width: 300px;
+      width: 450px;
       height: 30px;
       border-radius: 10px;
       font-size: 20px;
@@ -475,7 +483,7 @@ font-size: 29px;
       transition: 1.2s;
     }
     button:hover{
-      background-color: #504d51;
+      background-color: #151515;
       color: #ffffff;
       cursor: pointer;
     }
