@@ -8,6 +8,7 @@ import Aboutme from "./Component/Pages/Aboutme";
 import Contact from "./Component/Pages/Contact";
 import ServicesInfo from "./Component/Pages/ServicesInfo";
 import ServicesCoprate from "./Component/Pages/servicesCoprate";
+import ScrollToTopButton from "./Component/ScrollToTopButton";
 const App = () => {
   return (
     <>
@@ -38,6 +39,7 @@ const App = () => {
           element={<Contact />}
         />
       </Routes>
+      <ScrollToTopButton />
       <Footer />
     </>
   );
