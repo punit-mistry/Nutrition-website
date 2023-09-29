@@ -83,28 +83,142 @@ export const ServicesData = [
   export const WorkshopData = [
     {
       "id": 1,
+      img:"https://images.unsplash.com/photo-1604598625038-50520974af2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2ZmaWNlJTIwbnV0cml0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "Title": "In-House Health Consultant (Nutrition / Yoga)",
-      "content": "Health consultant in your corporate campus.\n• This saves employee's time and money to visit a health care consultant.\n• Early addressing to the health issue will maintain employee’s health.\n• Personalized consultation, to which employee can relate much better.\n• The health goal is been tracked with follow ups which gives them a greater motivation to work on their health.\n This service is available online."
+      features: [
+          " This saves employee's time and money to visit a health care consultant.",
+          "Early addressing to the health issue will maintain employee’s health.",
+          " Personalized consultation, to which employee can relate much better.",
+          "The health goal is been tracked with follow ups which gives them a greater motivation to work on their health.",
+      ],
+      spremark:"This service is available online.",
+      "content": "Health consultant in your corporate campus."
     },
     {
       "id": 2,
+      img:"https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       "Title": "Educate your employees",
-      "content": "Year-round Nutrition awareness lecture for international health days.\nE.g. world heart day/ world diabetes day/ women’s day/ breast cancer awareness day.\n Improves knowledge of employee towards healthy eating habits & healthy lifestyle.\n A big batch of individuals can attend at a go.\n Saves time spent on learning as compared to individual consultation of the same employee strength.\n All levels of employee can be touched with the same.\n This service is available online."
+      features: [
+        " Year-round Nutrition awareness lecture for international health days.\n\n E.g. world heart day/ world diabetes day/ women’s day/ breast cancer awareness day.",
+        "Improves knowledge of employee towards healthy eating habits & healthy lifestyle.",
+        " A big batch of individuals can attend at a go.",
+        "Saves time spent on learning as compared to individual consultation of the same employee strength.",
+        "All levels of employee can be touched with the same."
+    ],
+    spremark:"This service is available online.",
+      "content": ""
     },
     {
       "id": 3,
+      img:"https://plus.unsplash.com/premium_photo-1661587971472-53d5e9d9f44b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8WW9nYSUyMGluJTIwb2ZmaWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "Title": "Yoga workshops",
-      "content": "Monthly planned workshops for mental & physical health improvement.\nE.g. desk yoga/ work ergonomics/ Meditation/ stress management etc.\n Helps reduce basic body aches due to sitting hours.\n Reduces stress level which is the main cause of all the chronic health issues.\n Balances the hormones and improves mood handling of the individual.\n This will help them to be more focused at work task as well.\n This service is available online."
+      features: [
+        " Monthly planned workshops for mental & physical health improvement.\nE.g. desk yoga/ work ergonomics/ Meditation/ stress management etc.",
+        "Helps reduce basic body aches due to sitting hours.",
+        " Balances the hormones and improves mood handling of the individual.",
+        "This will help them to be more focused at work task as well.",
+    ],
+    spremark:"This service is available online.",
+      "content": ""
     },
     {
       "id": 4,
+      img:"https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2012&q=80",
       "Title": "Time out for Nutrition",
-      "content": "Take a time out from your busy schedule to learn and enjoy in the world of health & fitness. Get to know your body composition & Quick tips. Nutrition games for employees/ Quick nutrition challenge.\n Give-aways for winners. (Healthy treat)\n A different set up to involve individuals for health awareness.\n Healthy competition between department, leads them in a strong team.\n On spot learning which they can practice on a regular basis.\n This service is available online."
+      features: [
+        "Give-aways for winners. (Healthy treat)",
+        " A different set up to involve individuals for health awareness.",
+        " Healthy competition between department, leads them in a strong team.",
+        "On spot learning which they can practice on a regular basis.",
+    ],
+    spremark:"This service is available online.",
+      "content": "Take a time out from your busy schedule to learn and enjoy in the world of health & fitness. Get to know your body composition & Quick tips. Nutrition games for employees/ Quick nutrition challenge. "
     },
     {
       "id": 5,
+      img:"https://images.unsplash.com/photo-1571645163064-77faa9676a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       "Title": "Digital Motivation and facts about Nutrition",
-      "content": "• These mailers act like small alarms, reminding them about their health goals.\n• These are daily routine doubts that will be solved/ answered by the consultant directly.\n• Prevents from dropping their motivation towards working on their health goal.\n This service is available online."
+      features: [
+        "  These mailers act like small alarms, reminding them about their health goals.",
+        "These are daily routine doubts that will be solved/ answered by the consultant directly.",
+        " Prevents from dropping their motivation towards working on their health goal.",
+    ],
+    spremark:"This service is available online.",
+      "content": ""
     }
   ]
   
+
+
+  export const Reviews = [
+    {
+      id: 1,
+      name: "Neeta Chitalia",
+      star: 5,
+      review:
+        "Really happy with the result even after stopping the diet my weight is maintained. I have taken diet from many nutritionists earlier but nothing better than Aditi's. Thank you so much",
+    },
+    {
+      id: 2,
+      name: "Sandesh Kuckian",
+      star: 4,
+      review:
+        "I have been trying to find a good nutritionist in US for a number of years until thankfully I got introduced to Aditi...she meticulously listens to concerns and develops a custom diet plan that significantly enhances diet lifestyle and outcome. I was very pleased with positive chang … More",
+    },
+    {
+      id: 3,
+      name: "Naveen Goyal",
+      star: 5,
+      review:
+        "Very experienced professional, understands all aspects of Nutrition very well and helps in setting diets and exercise regime. Exceptional yoga instructor, Aditi has great knowledge and customises her sess … More",
+    },
+    {
+      id: 4,
+      name: "Maitri Shah",
+      star: 5,
+      review:
+        "Nature doesn't allow me to focus on what I eat but after enrolling with her I have started taking my diet on priority...\nShe is very approachable and is always there for support, feedback, and motivation.. … More",
+    },
+    {
+      id: 5,
+      name: "DHAVAL SURTI",
+      star: 5,
+      review:
+        "I am a diabetic. My A1C was 11. Aditi told me all the things I was doing wrong with my eating habits. She made a healthy and yet reasonable diet plan for me. Also, she recommended the best time and intervals for when to eat in a day. I followed  … More",
+    },
+    {
+      id: 6,
+      name: "PYNA UNDERGROUND FIGHT NIGHTS",
+      star: 4,
+      review:
+        "Hey, this is Prachi,\nI have been consulting Ms. Aditi Khanduri for my diet from last 1 year and also have indulged in various activities hosted by her, interesting facts bega … More",
+    },
+    {
+      id: 7,
+      name: "Jigar Mehta",
+      star: 4,
+      review:
+        "I joined to drop a couple of kgs and was able to drop them with ease without major changes to my diet. More",
+    },
+    {
+      id: 8,
+      name: "Ankita Vadher",
+      star: 5,
+      review:
+        "Before we start, she clearly explained the future plan and how to move ahead  … More",
+    },
+    {
+      id: 9,
+      name: "Ruchi Chatwani",
+      star: 5,
+      review:
+        "All the diet counseling were so fruitful, dint get GDM, my weight didn't increase and I had a very smooth pregna … More",
+    },
+    {
+      id: 10,
+      name: "Chandresh Soni",
+      star: 5,
+      review:
+        "It was a very nice experience to avail services from Dr. Aditi. Following the diet advised by her helped me loose my excess weight, maintain required BMI and biological parameters an … More",
+    },
+  ];

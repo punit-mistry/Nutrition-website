@@ -71,20 +71,25 @@ import {
 } from "react-icons/ai";
 import { FaBowlFood } from "react-icons/fa6";
 import { GiIndiaGate } from "react-icons/gi";
-
+import { GiThreeLeaves } from "react-icons/gi";
 const Footer = () => {
   return (
     <footer className="bg-orange-500 footer flex justify-center items-center p-20 absolute  w-full">
       {/* Your footer content */}
       <div className="flex gap-3 items-center flex-col text-xl">
-        <FaBowlFood size={50} />
+        <GiThreeLeaves size={50} />
         <span>orangeclinic.mumbai@gmail.com</span>
         <span className="flex items-center">
           {/* <GiIndiaGate size={30} /> */}
           +91-9821790372
         </span>
         <span>
-          <AiFillInstagram size={50} />
+          <a
+            href="https://www.instagram.com/clinicaldietitianaditi/"
+            target="_blank"
+          >
+            <AiFillInstagram size={50} />
+          </a>
         </span>
       </div>
     </footer>

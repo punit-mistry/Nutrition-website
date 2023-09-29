@@ -9,3 +9,16 @@
   .carousel .carousel-status {
     color: black !important;
   }
+
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px); /* Initial position, adjust as needed */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+    transform: translateY(0); /* Final position, adjust as needed */
+  }
+  

@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "./assets/logo.jpg";
 const Navbar = () => {
   return (
-    <div className="flex w-full justify-between p-6 font-bold shadow-lg shadow-orange-500/50">
+    <div className="flex w-full justify-between items-center px-10 font-bold shadow-lg shadow-orange-500/50">
       <div>
-        <Link to="/">Logo</Link>
+        <Link to="/">
+          <img
+            src={logo}
+            width={80}
+          />
+        </Link>
       </div>
       <div>
         <ul className="w-full flex gap-5">

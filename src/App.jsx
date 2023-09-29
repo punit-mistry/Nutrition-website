@@ -7,6 +7,7 @@ import Services from "./Component/Pages/Services";
 import Aboutme from "./Component/Pages/Aboutme";
 import Contact from "./Component/Pages/Contact";
 import ServicesInfo from "./Component/Pages/ServicesInfo";
+import ServicesCoprate from "./Component/Pages/servicesCoprate";
 const App = () => {
   return (
     <>
@@ -23,6 +24,10 @@ const App = () => {
         <Route
           path="/services/:id"
           element={<ServicesInfo />}
+        />
+        <Route
+          path="/servicesCoprate/:id"
+          element={<ServicesCoprate />}
         />
         <Route
           path="/"

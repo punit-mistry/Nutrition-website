@@ -6,7 +6,9 @@ const ServicesInfo = () => {
   let { id } = useParams();
 
   // Use the find method to find a single item with a matching id
-  const service = ServicesData.find((res) => res.id === Number(id));
+  const service =
+    ServicesData.find((res) => res.id === Number(id)) ||
+    WorkshopData.find((res) => res.id === Number(id));
 
   // Define a CSS class for the "No services found" message
   const noServiceClass =
