@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.carousel .control-arrow {
+    color: black !important;
+  }
+  
+  /* Set showStatus to black */
+  .carousel .carousel-status {
+    color: black !important;
+  }
