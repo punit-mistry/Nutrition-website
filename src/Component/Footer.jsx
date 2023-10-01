@@ -83,14 +83,20 @@ const Footer = () => {
           {/* <GiIndiaGate size={30} /> */}
           +91-9821790372
         </span>
-        <span>
+        <div className="flex ">
           <a
             href="https://www.instagram.com/clinicaldietitianaditi/"
             target="_blank"
           >
             <AiFillInstagram size={50} />
           </a>
-        </span>
+          <a
+            href="https://www.linkedin.com/in/aditi-khanduri-b74709104"
+            target="_blank"
+          >
+            <AiFillLinkedin size={50} />
+          </a>
+        </div>
       </div>
     </footer>
   );

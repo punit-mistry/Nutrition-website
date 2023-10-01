@@ -2,7 +2,7 @@
 export const ServicesData = [
     {id: 1,
       Title: "Weight Management",
-      img: "https://images.unsplash.com/photo-1598532213919-078e54dd1f40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+      img: "https://images.unsplash.com/photo-1625998118581-33ba7b4e6ceb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       content: `If you are a weight watcher and have been trying to lose those extra kilos but could not get any results! Our weight management program is tailor-made. Diet recommendation for your health goals and body’s requirement. We consider your working schedule and daily routine while curating your plan. We do not recommend any crash diet for unrealistic results; long-term lifestyle changes are a better choice for sustainable results.`,
       features: [
         "Detailed 1-2-1 session",
@@ -15,7 +15,7 @@ export const ServicesData = [
     },
     {id: 2,
       Title: "Diabetes Management Type 1 / 2",
-      img: "https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      img: "https://images.unsplash.com/photo-1463367620918-d4824d05ce0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
       content: `If you are struggling to maintain your blood sugar levels within the range even being on oral medication / insulin therapy, then our diet consultation for diabetes management will help you get your blood sugar levels to desired readings. Be it fasting blood sugar level or post-meal readings or HbA1c level, diet modification can help you see changes on all these reports.`,
       features: [
         "Detailed 1-2-1 session",
@@ -29,7 +29,7 @@ export const ServicesData = [
     {
       id: 3,
       Title: "Poly Cystic Ovarian Disease (PCOD)",
-      img: "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+      img: "https://i.ibb.co/6sSsMSR/pcod.jpg",
       content: `This condition brings a metabolic change in hormone system + body composition + the way food is metabolized. PCOD makes it more difficult for the individual to lose weight, due to the imbalance of insulin production & irregular periods. Diet modification is a potent way of supporting the treatment of PCOD, which helps to manage the symptoms.`,
       features: [
         "Detailed 1-2-1 session",
@@ -42,7 +42,7 @@ export const ServicesData = [
     {
       id: 4,
       Title: "Gestational Diabetes (GDM)",
-      img: "https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      img: "https://imgs.search.brave.com/w_LJMn3JjmzjQTk9l8orVrVVrH2CCHczqks0F0llRvo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vcG9zdC5o/ZWFsdGhsaW5lLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wOS9wcmVnbmFu/dC1mZW1hbGUtYmxv/b2Qtc3VnYXItdGVz/dC0xMjk2LTcyOC1o/ZWFkZXIuanBnP3c9/MTE1NSZoPTE1Mjg",
       content: `Gestational diabetes is when high sugar levels are detected during pregnancy. Maintaining a healthy balanced diet is utmost important for baby’s development in the womb and mother’s health. We consider mother’s requirement and cravings; thus, the diet is planned with multiple options and substitutes.`,
       features: [
         "Detailed 1-2-1 session",
@@ -54,7 +54,7 @@ export const ServicesData = [
     {
       id: 5,
       Title: "Cancer",
-      img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+      img: "https://images.unsplash.com/photo-1576089172869-4f5f6f315620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2126&q=80",
       content: `Diet plays a particularly important role during cancer treatment. To successfully survive the chemotherapy / radiation therapy, one needs a strong diet backup. Scientific-based nutrition therapy during cancer treatment determines better recovery during and post-treatment. Diet recommendations will also help reduce side-effects commonly seen during cancer treatment.`,
       features: [
         "Detailed 1-2-1 session",
@@ -68,7 +68,7 @@ export const ServicesData = [
     {
       id: 6,
       Title: "Thyroid",
-      img: "https://images.unsplash.com/photo-1607532941433-304659e8198a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1078&q=80",
+      img: "https://imgs.search.brave.com/hfU7bNQkIR7N_UOI66D32Akb_9uW9wmp23O262vdG-0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTAx/NDI0NTAyL3Bob3Rv/L3dvbWFuLXRoeXJv/aWQtZ2xhbmQtY29u/dHJvbC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9U0E0LVhu/Z1ZqUVJENU8zeEQy/aVdvcXA4WHRweUZl/bEJoSEhNSGpSZmxH/ND0",
       content: `Thyroid is an inflammatory disease, where anti-inflammatory food helps the body to fight the condition better. Even being on thyroid medication if you face symptoms like weakness, hairfall, low hemoglobin, weight gain, etc., then our nutrition counseling will help you manage these symptoms well.`,
       features: [
         "Detailed 1-2-1 session",
@@ -97,7 +97,7 @@ export const ServicesData = [
     {
       "id": 2,
       img:"https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      "Title": "Educate your employees",
+      "Title": "Educate your Employees",
       features: [
         " Year-round Nutrition awareness lecture for international health days.\n\n E.g. world heart day/ world diabetes day/ women’s day/ breast cancer awareness day.",
         "Improves knowledge of employee towards healthy eating habits & healthy lifestyle.",
@@ -111,7 +111,7 @@ export const ServicesData = [
     {
       "id": 3,
       img:"https://plus.unsplash.com/premium_photo-1661587971472-53d5e9d9f44b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8WW9nYSUyMGluJTIwb2ZmaWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      "Title": "Yoga workshops",
+      "Title": "Yoga Workshops",
       features: [
         " Monthly planned workshops for mental & physical health improvement.\nE.g. desk yoga/ work ergonomics/ Meditation/ stress management etc.",
         "Helps reduce basic body aches due to sitting hours.",
@@ -137,7 +137,7 @@ export const ServicesData = [
     {
       "id": 5,
       img:"https://images.unsplash.com/photo-1571645163064-77faa9676a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      "Title": "Digital Motivation and facts about Nutrition",
+      "Title": "Digital Motivation and Facts about Nutrition",
       features: [
         "  These mailers act like small alarms, reminding them about their health goals.",
         "These are daily routine doubts that will be solved/ answered by the consultant directly.",

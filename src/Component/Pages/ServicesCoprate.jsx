@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { WorkshopData } from "./ServicesData";
 import { useNavigate } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 const ServicesCoprate = () => {
   let { id } = useParams();
   const navigation = useNavigate();
@@ -42,13 +43,22 @@ const ServicesCoprate = () => {
               <br />
               <p className="font-bold">({service.spremark})</p>
             </div>
-            <div>
+            <div className="flex gap-5">
               <button
                 className="bg-orange-600 p-2 font-bold text-white rounded-lg w-32 "
                 onClick={() => navigation("/services")}
               >
                 Go Back
               </button>
+              <a
+                href="https://wa.me/08231231412?text=Hi%20!!%F0%9F%91%8B%20Aditi%20I%20just%20watch%20your%20Page%20and%20wanted%20to%20know%20More%20about%20it%20.."
+                target="_blank"
+              >
+                <button className="bg-green-600 p-2 font-bold text-white rounded-lg w-40 flex items-center gap-2 ">
+                  <FaWhatsapp size={30} />
+                  Message Me{" "}
+                </button>
+              </a>
             </div>
           </div>
         </div>

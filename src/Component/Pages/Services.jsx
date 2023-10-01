@@ -21,7 +21,7 @@ const Services = () => {
 
   return (
     <>
-      <div className="w-full h-full p-5 md:p-20 flex flex-col-reverse md:flex-row gap-10">
+      <div className="w-full h-full p-5 md:p-20 flex flex-col-reverse md:flex-row gap-10 font-serif">
         <div className="md:w-1/2 text-center">
           <span className="font-serif text-xl md:text-7xl">
             Treat “Food as Medicine” or time will come when you will have to
@@ -49,7 +49,7 @@ const Services = () => {
           </button>
         </div>
         <div className="md:w-1/2">
-          <img src={img3} />
+          <img src="https://i.ibb.co/9ymg16G/salad-transformed.jpg" />
         </div>
       </div>
       {/* Second Section */}
@@ -108,7 +108,7 @@ const Services = () => {
                     onClick={() => NavigatetoPageCoprate(res.id)}
                   >
                     <div
-                      className="shadow-2xl shadow-orange-600 w-96 md:w-[15vw] h-60 rounded-3xl font-bold flex items-center justify-center bg-cover group hover:bg-black"
+                      className="shadow-2xl shadow-black   w-96 md:w-[15vw] h-60 rounded-3xl font-bold flex items-center justify-center bg-cover group hover:bg-black"
                       style={{ backgroundImage: `url(${res.img})` }}
                     >
                       <div className="bg-black text-xl  text-center  w-full p-2 text-white">
@@ -124,7 +124,7 @@ const Services = () => {
         <br />
         <div className="flex flex-col items-center justify-center gap-20">
           <div className="text-4xl ">
-            Clinical services
+            Clinical Services
             <div className="bg-orange-500 w-60 h-1 mt-2" />
           </div>
           <div className="flex  flex-col md:flex-row mx-5 gap-5">
@@ -136,7 +136,7 @@ const Services = () => {
                   onClick={() => NavigatetoPage(res.id)}
                 >
                   <div
-                    className=" w-96 md:w-[15vw] h-60 rounded-3xl font-bold flex items-center justify-center bg-cover group hover:bg-black"
+                    className=" w-96 md:w-[15vw] h-60 rounded-3xl font-bold flex items-center justify-center bg-cover group hover:bg-black grayscale hover:grayscale-0 transition-all delay-100"
                     style={{ backgroundImage: `url(${res.img})` }}
                   >
                     <div className="bg-black text-xl  text-center  w-full p-2 text-white">

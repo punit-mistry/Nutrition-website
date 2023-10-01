@@ -163,10 +163,10 @@ const Aboutme = () => {
       </div> */}
       <br />
       <div className="flex items-center  flex-col gap-10 justify-center">
-        <div className="text-3xl flex item">"Where to Find Me" </div>
+        <div className="text-3xl flex item">"Where to Find Me ? " </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1181.3978772424775!2d72.83636997163505!3d19.214197600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6cdcc94ef35%3A0x795a2947e104e8fb!2sOrange%20Clinic!5e1!3m2!1sen!2sin!4v1695969577931!5m2!1sen!2sin"
-          className="md:w-[90vw] mx-10 h-[50vh]"
+          className="md:w-[90vw] mx-10 h-[50vh] w-[80vw]"
         ></iframe>
 
         <br />
