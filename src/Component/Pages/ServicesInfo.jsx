@@ -43,7 +43,7 @@ const ServicesInfo = () => {
               </ul>
               <br />
             </div>
-            <div className="flex gap-5">
+            <div className="flex gap-">
               <button
                 className="bg-orange-600 p-2 font-bold text-white rounded-lg w-32 "
                 onClick={() => navigation("/services")}
@@ -51,7 +51,7 @@ const ServicesInfo = () => {
                 Go Back
               </button>
               <a
-                href="https://wa.me/08231231412?text=Hi%20!!%F0%9F%91%8B%20Aditi%20I%20just%20watch%20your%20Page%20and%20wanted%20to%20know%20More%20about%20it%20.."
+                href="https://api.whatsapp.com/send?phone=8286075880&text=Thank%20you%20for%20enquiring%20with%20us.%0A%0ADo%20let%20me%20know%20what%20are%20you%20looking%20for%20and%20I%20will%20get%20back%20to%20you%20as%20soon%20as%20possible.%0A%0ARegards,%0AAditi%20Khanduri"
                 target="_blank"
               >
                 <button className="bg-green-600 p-2 font-bold text-white rounded-lg w-40 flex items-center gap-2 ">
